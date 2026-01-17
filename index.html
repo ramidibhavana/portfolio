@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: #2b2b2b;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    .container {
+      width: 85%;
+      margin: auto;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav h1 {
+      font-size: 24px;
+    }
+
+    .nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    .nav ul li {
+      margin-left: 20px;
+    }
+
+    .nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: #555;
+      color: #fff;
+      padding: 60px 0;
+    }
+
+    .hero-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero-text h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero-text p {
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #007bff;
+      color: #fff;
+      padding: 10px 20px; 
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    .hero img {
+      max-width: 300px;
+      border-radius: 6px;
+    }
+
+    /* Sections */
+    section {
+      padding: 50px 0;
+      margin-bottom: 10px;
+    }
+
+    /* Section Backgrounds */
+    #about {
+      background: #f9f9f9;height:400px;
+    }
+
+    #skills {
+      background: #e9eef3;
+    }
+
+   
+
+    #contact {
+      background: #e6e6e6;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    /* About */
+    .about {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+
+    /* Skills */
+    .skills ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      text-align: center;
+    }
+
+    .skills li {
+      background: #eee;
+      padding: 15px;
+      border-radius: 4px;
+    }
+
+   
+    /* Contact */
+    .contact p {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    /* Footer */
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    @media (max-width: 768px) {
+      .hero-text {
+        max-width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <h1>Online Portfolio</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+     
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h2>RAMIDI BHAVANA </h2>
+        <p>I am a dedicated student currently pursuing my degree with a passion for learning and exploring new opportunities.</p>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+      <img src="profile.jpg" alt="Profile Image" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container about">
+      <div>
+        <h2>About Me</h2>
+        <p>
+          My academic journey is helping me build a solid foundation in my field while developing practical skills such as critical thinking,communication,and teamwork.I am eager to gain real-world exposure,enhance my skills,and grow professionally while balancing academic excellence.
+        </p><br><br>
+        <a href="BHAVANA_RESUME.PDF "class="btn" download>Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>python</li>
+        <li>html</li>
+        <li>css</li>
+        
+        <li>SQL</li>
+      </ul>
+    </div>
+  </section>
+
+  
+  
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container contact">
+      <h2>Contact</h2>
+      <p>Email: ramidibhavana5@gmail.com</p>
+      <p>Phone: +91 6301993784</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; seeking for opportunities</p>
+  </footer>
+
+</body>
+</html>
