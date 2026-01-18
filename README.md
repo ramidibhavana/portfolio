@@ -1,3 +1,5 @@
+🌐**Personal Portfolio Website:**
+
 This portfolio is designed using HTML and CSS to showcase personal and professional information in a clean and structured manner.
 HTML is used to create the basic layout and sections such as header, about, skills, projects, resume, and contact,
 while CSS is used to style the content, add colors, fonts, spacing, and responsive design.
@@ -5,7 +7,7 @@ The portfolio provides an organized way to highlight skills, projects, and achie
 
 
 
-**Key Features of the Portfolio Website:**
+💡**Key Features of the Portfolio Website:**
 
 * Clean and responsive design using HTML and CSS
 * Well-structured sections: Header, About, Skills, Projects, Resume, and Contact
@@ -18,11 +20,11 @@ The portfolio provides an organized way to highlight skills, projects, and achie
 
 
 
-**Technologies Used in the Portfolio Website:**
+🚀**Technologies Used in the Portfolio Website:**
 
-* **HTML5** – Used to structure the content and create different sections of the portfolio
-* **CSS3** – Used for styling, layout design, colors, fonts, and responsiveness
-* **Responsive Design Techniques** – Media queries and flexible layouts to support different screen sizes
-* **Web Browser** – To run and display the portfolio website locally or online
+➤ **HTML5** – Used to structure the content and create different sections of the portfolio
+➜ **CSS3** – Used for styling, layout design, colors, fonts, and responsiveness
+➝ **Responsive Design Techniques** – Media queries and flexible layouts to support different screen sizes
+➞ **Web Browser** – To run and display the portfolio website locally or online
 
 These technologies together help create a simple, clean, and visually appealing portfolio website.
