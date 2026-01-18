@@ -22,9 +22,9 @@ The portfolio provides an organized way to highlight skills, projects, and achie
 
 🚀**Technologies Used in the Portfolio Website:**
 
-➤ **HTML5** – Used to structure the content and create different sections of the portfolio
-➜ **CSS3** – Used for styling, layout design, colors, fonts, and responsiveness
-➝ **Responsive Design Techniques** – Media queries and flexible layouts to support different screen sizes
-➞ **Web Browser** – To run and display the portfolio website locally or online
+➤ **HTML5** – Used to structure the content and create different sections of the portfolio.<br>
+➜ **CSS3** – Used for styling, layout design, colors, fonts, and responsiveness.<br>
+➝ **Responsive Design Techniques** – Media queries and flexible layouts to support different screen sizes.<br>
+➞ **Web Browser** – To run and display the portfolio website locally or online.<br>
 
 These technologies together help create a simple, clean, and visually appealing portfolio website.
